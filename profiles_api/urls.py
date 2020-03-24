@@ -6,7 +6,7 @@ from profiles_api import views
 
 router = DefaultRouter()
 router.register('Hello-viewset', views.HelloViewSet, base_name='hello_viewset')
-
+router.register('profile', views.UserProfileViewSet)
 
 urlpatterns = [
     path('hello-view/', views.HelloBolonhaAPIView.as_view()),

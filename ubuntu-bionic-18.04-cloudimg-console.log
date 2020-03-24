@@ -589,4 +589,27 @@ Welcome to [1mUbuntu 18.04.4 LTS[0m!
 
 Ubuntu 18.04.4 LTS ubuntu-bionic ttyS0
 
-ubuntu-bionic login: 
+ubuntu-bionic login: [87216.585566] INFO: rcu_sched self-detected stall on CPU
+[87216.587103] 	0-...!: (1 ticks this GP) idle=b72/1/0 softirq=1617567/1617567 fqs=0 
+[87216.589105] 	 (t=317057 jiffies g=146445 c=146444 q=309)
+[87216.590536] rcu_sched kthread starved for 317057 jiffies! g146445 c146444 f0x0 RCU_GP_WAIT_FQS(3) ->state=0x402 ->cpu=0
+[336487.963212] INFO: rcu_sched self-detected stall on CPU
+[336487.965255] 	0-...!: (2 ticks this GP) idle=40e/140000000000001/0 softirq=20471182/20471183 fqs=1 
+[336487.974410] 	 (t=450233 jiffies g=1383168 c=1383167 q=671)
+[336487.975577] INFO: rcu_sched detected stalls on CPUs/tasks:
+[336487.976841] rcu_sched kthread starved for 2099501 jiffies! g1383168 c1383167 f0x0 RCU_GP_WAIT_FQS(3) ->state=0x402 ->cpu=1
+[336487.982203] 	0-...!: (2 ticks this GP) idle=40e/140000000000001/0 softirq=20471182/20471183 fqs=1 
+[336487.993538] 	(detected by 1, t=2099503 jiffies, g=1383168, c=1383167, q=671)
+[336488.002521] rcu_sched kthread starved for 2099501 jiffies! g1383168 c1383167 f0x0 RCU_GP_WAIT_FQS(3) ->state=0x402 ->cpu=1
+[353995.640386] INFO: rcu_sched detected stalls on CPUs/tasks:
+[353995.642306] 	1-...!: (8 GPs behind) idle=140/0/0 softirq=1026696/1026696 fqs=0 
+[353995.644256] 	(detected by 0, t=153475 jiffies, g=1500843, c=1500842, q=296)
+[353995.647309] rcu_sched kthread starved for 703233 jiffies! g1500843 c1500842 f0x0 RCU_GP_WAIT_FQS(3) ->state=0x402 ->cpu=0
+[353995.651873] INFO: rcu_sched detected stalls on CPUs/tasks:
+[353995.653516] 	1-...!: (8 GPs behind) idle=158/0/0 softirq=1026696/1026696 fqs=0 
+[353995.656019] 	(detected by 0, t=703234 jiffies, g=1500843, c=1500842, q=298)
+[353995.659036] rcu_sched kthread starved for 703234 jiffies! g1500843 c1500842 f0x2 RCU_GP_WAIT_FQS(3) ->state=0x0 ->cpu=0
+[403143.964439] INFO: rcu_sched self-detected stall on CPU
+[403143.966414] 	0-...!: (1 ticks this GP) idle=cce/1/0 softirq=22015540/22015540 fqs=0 
+[403143.969282] 	 (t=185917 jiffies g=1500893 c=1500892 q=43)
+[403143.971242] rcu_sched kthread starved for 185917 jiffies! g1500893 c1500892 f0x0 RCU_GP_WAIT_FQS(3) ->state=0x402 ->cpu=0
